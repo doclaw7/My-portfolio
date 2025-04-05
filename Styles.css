@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+.about-me p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+.skills ul {
+    list-style: circle;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    text-align: left 10px;
+}
+.skills li {
+    background-color: #ddd;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.youtube-video {
+    margin-top: 20px;
+}
+.youtube-video iframe {
+    width: 100%;
+    max-width: 560px; /* Adjust as needed */
+    height: 315px;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contact-info p {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.hobbies ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.contacts{
+    text-align: center;
+}
+
+.contacts p{
+    text-align: left;
+    padding-right: 20px;
+    text-indent: 40%;
+    list-style: decimal;
+}
